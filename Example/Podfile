@@ -1,0 +1,6 @@
+use_frameworks!
+target 'MIRSnapper_Tests' do
+  pod 'MIRSnapper', :path => '../'
+  
+  
+end
