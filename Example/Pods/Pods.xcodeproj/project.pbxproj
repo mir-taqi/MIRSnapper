@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		020B7F2D0D3CC52B2B7EB5E5392A83FE /* Pods-MIRSnapper_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B98DDFF0C0922DE93E3D9EEB5E77DEB /* Pods-MIRSnapper_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19231CBE4A72E1575BDB75F1745E90CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		28F695D20339A27C99E31E8F3BD8BBEC /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A2CE72031CCBA11A7B3C9D60403CF /* ReplaceMe.m */; };
+		33784097273D4CA30E688DB3F8243DD3 /* MIRSnapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B9AF7ADE85655187702E4197479579 /* MIRSnapper-dummy.m */; };
+		94F86D30081ACA89DFECEC80A018CD33 /* Pods-MIRSnapper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F8601DD6A660AEA36B25513A81BC77 /* Pods-MIRSnapper_Tests-dummy.m */; };
+		CBFAF50026207393628C70A4A55889AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		F9F48D68E3009341F4158C931294D201 /* MIRSnapper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78ADE2216014F1F7E5D44A0698C6FAB2 /* MIRSnapper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1062CAA654641A2137FF0D8A40BE6C27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8396F8E9B8B1A72A211C7A5516DE23C1;
+			remoteInfo = MIRSnapper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08F8601DD6A660AEA36B25513A81BC77 /* Pods-MIRSnapper_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MIRSnapper_Tests-dummy.m"; sourceTree = "<group>"; };
+		0B98DDFF0C0922DE93E3D9EEB5E77DEB /* Pods-MIRSnapper_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MIRSnapper_Tests-umbrella.h"; sourceTree = "<group>"; };
+		32599C698645493F4E37714923043722 /* MIRSnapper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MIRSnapper.modulemap; sourceTree = "<group>"; };
+		3ACF67F62C6063DCC047F13F14992110 /* Pods-MIRSnapper_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MIRSnapper_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		3F4B6D0306BD83E32562E1299D1506C3 /* Pods-MIRSnapper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MIRSnapper_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		444CDEDF94396B761B14FFB1C230168A /* MIRSnapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MIRSnapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		489A2CE72031CCBA11A7B3C9D60403CF /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = MIRSnapper/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		4E80BBAFEAA7DBFB17C90FE5BB90B003 /* Pods-MIRSnapper_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MIRSnapper_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5AACDCEC270B4591C306DA44D14280EC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		73C315454AB3CFBB875F2362B82ED18D /* Pods-MIRSnapper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MIRSnapper_Tests.modulemap"; sourceTree = "<group>"; };
+		78ADE2216014F1F7E5D44A0698C6FAB2 /* MIRSnapper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MIRSnapper-umbrella.h"; sourceTree = "<group>"; };
+		863A3E0BED38CF2358F3AEEB272494EA /* MIRSnapper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MIRSnapper-prefix.pch"; sourceTree = "<group>"; };
+		90B9AF7ADE85655187702E4197479579 /* MIRSnapper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MIRSnapper-dummy.m"; sourceTree = "<group>"; };
+		9F1F38A25905A20E7717567832463603 /* MIRSnapper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MIRSnapper.xcconfig; sourceTree = "<group>"; };
+		9F836CE69238F31E8818076FB1BC962F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A14EBFE6178109738916074636C3AD93 /* Pods_MIRSnapper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MIRSnapper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD0DE72326BBB237F6248910357BB0D4 /* Pods-MIRSnapper_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MIRSnapper_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AD84D82F8F34720C6DB23830BD259835 /* Pods-MIRSnapper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MIRSnapper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BBBCBD119BA11CD1A007C7504F368569 /* Pods-MIRSnapper_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MIRSnapper_Tests-Info.plist"; sourceTree = "<group>"; };
+		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E2A117B9BF4BD2D168711F815A5CA813 /* MIRSnapper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MIRSnapper.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FA33DFAE853343CA11352D1DEE8BFB0A /* MIRSnapper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MIRSnapper-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1A1DFED128A7CAA2BE95089503C75EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBFAF50026207393628C70A4A55889AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE757DC382CD2F8ADF8E9DB711820A35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19231CBE4A72E1575BDB75F1745E90CA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DB82BCD2C3A5AF1B93E36E8E5587C32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				444CDEDF94396B761B14FFB1C230168A /* MIRSnapper.framework */,
+				A14EBFE6178109738916074636C3AD93 /* Pods_MIRSnapper_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		162D511CBDEF74A73D8005C3BB851A78 /* MIRSnapper */ = {
+			isa = PBXGroup;
+			children = (
+				489A2CE72031CCBA11A7B3C9D60403CF /* ReplaceMe.m */,
+				CF6802FC72E45728F3D8F716A5C9F954 /* Pod */,
+				7D9214E1454FFFE8AC1755486237BE13 /* Support Files */,
+			);
+			name = MIRSnapper;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		50DA0E0F3334597A17A38FC75FDC7C91 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAA6AB11C245B0938189E9FD6CB213F9 /* Pods-MIRSnapper_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7D9214E1454FFFE8AC1755486237BE13 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				32599C698645493F4E37714923043722 /* MIRSnapper.modulemap */,
+				9F1F38A25905A20E7717567832463603 /* MIRSnapper.xcconfig */,
+				90B9AF7ADE85655187702E4197479579 /* MIRSnapper-dummy.m */,
+				FA33DFAE853343CA11352D1DEE8BFB0A /* MIRSnapper-Info.plist */,
+				863A3E0BED38CF2358F3AEEB272494EA /* MIRSnapper-prefix.pch */,
+				78ADE2216014F1F7E5D44A0698C6FAB2 /* MIRSnapper-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MIRSnapper";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
+				B85D2289BDE01BD7E0CF151F3438FE27 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0DB82BCD2C3A5AF1B93E36E8E5587C32 /* Products */,
+				50DA0E0F3334597A17A38FC75FDC7C91 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AAA6AB11C245B0938189E9FD6CB213F9 /* Pods-MIRSnapper_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				73C315454AB3CFBB875F2362B82ED18D /* Pods-MIRSnapper_Tests.modulemap */,
+				4E80BBAFEAA7DBFB17C90FE5BB90B003 /* Pods-MIRSnapper_Tests-acknowledgements.markdown */,
+				AD0DE72326BBB237F6248910357BB0D4 /* Pods-MIRSnapper_Tests-acknowledgements.plist */,
+				08F8601DD6A660AEA36B25513A81BC77 /* Pods-MIRSnapper_Tests-dummy.m */,
+				3ACF67F62C6063DCC047F13F14992110 /* Pods-MIRSnapper_Tests-frameworks.sh */,
+				BBBCBD119BA11CD1A007C7504F368569 /* Pods-MIRSnapper_Tests-Info.plist */,
+				0B98DDFF0C0922DE93E3D9EEB5E77DEB /* Pods-MIRSnapper_Tests-umbrella.h */,
+				AD84D82F8F34720C6DB23830BD259835 /* Pods-MIRSnapper_Tests.debug.xcconfig */,
+				3F4B6D0306BD83E32562E1299D1506C3 /* Pods-MIRSnapper_Tests.release.xcconfig */,
+			);
+			name = "Pods-MIRSnapper_Tests";
+			path = "Target Support Files/Pods-MIRSnapper_Tests";
+			sourceTree = "<group>";
+		};
+		B85D2289BDE01BD7E0CF151F3438FE27 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				162D511CBDEF74A73D8005C3BB851A78 /* MIRSnapper */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D5347904CF754D6785B84253F2574A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF6802FC72E45728F3D8F716A5C9F954 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9F836CE69238F31E8818076FB1BC962F /* LICENSE */,
+				E2A117B9BF4BD2D168711F815A5CA813 /* MIRSnapper.podspec */,
+				5AACDCEC270B4591C306DA44D14280EC /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4AB671BB5C4B08FE1B52E4360646F570 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F48D68E3009341F4158C931294D201 /* MIRSnapper-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD7528CFC24C25323A506A628EB54DCB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				020B7F2D0D3CC52B2B7EB5E5392A83FE /* Pods-MIRSnapper_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8396F8E9B8B1A72A211C7A5516DE23C1 /* MIRSnapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3027B67706C8DAE276AC184742139446 /* Build configuration list for PBXNativeTarget "MIRSnapper" */;
+			buildPhases = (
+				4AB671BB5C4B08FE1B52E4360646F570 /* Headers */,
+				C63A80FC5CA1D0D629564A3D0E7810AF /* Sources */,
+				E1A1DFED128A7CAA2BE95089503C75EE /* Frameworks */,
+				D71972034E8025A30452FDD465032294 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MIRSnapper;
+			productName = MIRSnapper;
+			productReference = 444CDEDF94396B761B14FFB1C230168A /* MIRSnapper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FFB4B1D914FFC5509BA06A1FE25C07AF /* Pods-MIRSnapper_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46666F61014311504985D138F2029CF7 /* Build configuration list for PBXNativeTarget "Pods-MIRSnapper_Tests" */;
+			buildPhases = (
+				AD7528CFC24C25323A506A628EB54DCB /* Headers */,
+				171FEF01F0C3DDB5A2B9AA2D9C070E8F /* Sources */,
+				EE757DC382CD2F8ADF8E9DB711820A35 /* Frameworks */,
+				E652F0E62EB0FA055AE130A354149F17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26EA971A7BF0DCAA2D4D740C7F4B1910 /* PBXTargetDependency */,
+			);
+			name = "Pods-MIRSnapper_Tests";
+			productName = "Pods-MIRSnapper_Tests";
+			productReference = A14EBFE6178109738916074636C3AD93 /* Pods_MIRSnapper_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0DB82BCD2C3A5AF1B93E36E8E5587C32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8396F8E9B8B1A72A211C7A5516DE23C1 /* MIRSnapper */,
+				FFB4B1D914FFC5509BA06A1FE25C07AF /* Pods-MIRSnapper_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D71972034E8025A30452FDD465032294 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E652F0E62EB0FA055AE130A354149F17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		171FEF01F0C3DDB5A2B9AA2D9C070E8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94F86D30081ACA89DFECEC80A018CD33 /* Pods-MIRSnapper_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C63A80FC5CA1D0D629564A3D0E7810AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33784097273D4CA30E688DB3F8243DD3 /* MIRSnapper-dummy.m in Sources */,
+				28F695D20339A27C99E31E8F3BD8BBEC /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26EA971A7BF0DCAA2D4D740C7F4B1910 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MIRSnapper;
+			target = 8396F8E9B8B1A72A211C7A5516DE23C1 /* MIRSnapper */;
+			targetProxy = 1062CAA654641A2137FF0D8A40BE6C27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A79A5081916719E2D5DBDFC5B621FEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F1F38A25905A20E7717567832463603 /* MIRSnapper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MIRSnapper/MIRSnapper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MIRSnapper/MIRSnapper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MIRSnapper/MIRSnapper.modulemap";
+				PRODUCT_MODULE_NAME = MIRSnapper;
+				PRODUCT_NAME = MIRSnapper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2420BCA84955508CA573225E152CC4BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD84D82F8F34720C6DB23830BD259835 /* Pods-MIRSnapper_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MIRSnapper_Tests/Pods-MIRSnapper_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MIRSnapper_Tests/Pods-MIRSnapper_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		446D7F812288FB05F52381751B722EA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F4B6D0306BD83E32562E1299D1506C3 /* Pods-MIRSnapper_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MIRSnapper_Tests/Pods-MIRSnapper_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MIRSnapper_Tests/Pods-MIRSnapper_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5153DC2E9BB4F6D6F85AF7C0A4A2A27F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6A949A208667F02694AF29D5DCC8D4BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8EF251F5C409BC2501FF4920DC536753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F1F38A25905A20E7717567832463603 /* MIRSnapper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MIRSnapper/MIRSnapper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MIRSnapper/MIRSnapper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MIRSnapper/MIRSnapper.modulemap";
+				PRODUCT_MODULE_NAME = MIRSnapper;
+				PRODUCT_NAME = MIRSnapper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5153DC2E9BB4F6D6F85AF7C0A4A2A27F /* Debug */,
+				6A949A208667F02694AF29D5DCC8D4BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3027B67706C8DAE276AC184742139446 /* Build configuration list for PBXNativeTarget "MIRSnapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A79A5081916719E2D5DBDFC5B621FEB /* Debug */,
+				8EF251F5C409BC2501FF4920DC536753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46666F61014311504985D138F2029CF7 /* Build configuration list for PBXNativeTarget "Pods-MIRSnapper_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2420BCA84955508CA573225E152CC4BE /* Debug */,
+				446D7F812288FB05F52381751B722EA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

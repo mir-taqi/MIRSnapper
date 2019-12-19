@@ -1,0 +1,16 @@
+PODS:
+  - MIRSnapper (0.1.0)
+
+DEPENDENCIES:
+  - MIRSnapper (from `../`)
+
+EXTERNAL SOURCES:
+  MIRSnapper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MIRSnapper: ffb1d8bbfdc3d9bfe479c86599075ba8a2ab05ff
+
+PODFILE CHECKSUM: e1e47608396790df8259d9153d6989666f6aabfb
+
+COCOAPODS: 1.6.0.beta.2

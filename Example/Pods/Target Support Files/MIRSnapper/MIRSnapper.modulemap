@@ -1,0 +1,6 @@
+framework module MIRSnapper {
+  umbrella header "MIRSnapper-umbrella.h"
+
+  export *
+  module * { export * }
+}
