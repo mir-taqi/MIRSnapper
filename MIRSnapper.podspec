@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/mir-taqi/MIRSnapper'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'iosengineer1' => 'mtaqi@sejeltech.com' }
+  s.author           = { 'taqi-mir' => 'taqi-mir' }
   s.source           = { :git => 'https://github.com/mir-taqi/MIRSnapper.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
