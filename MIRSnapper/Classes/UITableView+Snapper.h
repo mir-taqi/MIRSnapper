@@ -25,13 +25,13 @@ NS_ASSUME_NONNULL_BEGIN
                        excludingAllFooters:(BOOL)withoutFooters
                           excludingAllRows:(BOOL)withoutRows;
 
-- (UIImage *)screenshotExcludingHeadersAtSections:(NSSet *)headerSections
-                       excludingFootersAtSections:(NSSet *)footerSections
-                        excludingRowsAtIndexPaths:(NSSet *)indexPaths;
+- (UIImage *)screenshotExcludingHeadersAtSections:(nullable NSSet *)headerSections
+                       excludingFootersAtSections:(nullable NSSet *)footerSections
+                        excludingRowsAtIndexPaths:(nullable NSSet *)indexPaths;
 
-- (UIImage *)screenshotOfHeadersAtSections:(NSSet *)headerSections
-                         footersAtSections:(NSSet *)footerSections
-                          rowsAtIndexPaths:(NSSet *)indexPaths;
+- (UIImage *)screenshotOfHeadersAtSections:(nullable NSSet *)headerSections
+                         footersAtSections:(nullable NSSet *)footerSections
+                          rowsAtIndexPaths:(nullable NSSet *)indexPaths;
 @end
 
 NS_ASSUME_NONNULL_END

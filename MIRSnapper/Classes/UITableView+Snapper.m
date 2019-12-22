@@ -104,9 +104,9 @@
                             excludingRowsAtIndexPaths:(withoutRows)?[NSSet setWithArray:excludedRows]:nil];
 }
 
-- (UIImage *)screenshotExcludingHeadersAtSections:(NSSet *)excludedHeaderSections
-                       excludingFootersAtSections:(NSSet *)excludedFooterSections
-                        excludingRowsAtIndexPaths:(NSSet *)excludedIndexPaths
+- (UIImage *)screenshotExcludingHeadersAtSections:(nullable NSSet *)excludedHeaderSections
+                       excludingFootersAtSections:(nullable NSSet *)excludedFooterSections
+                        excludingRowsAtIndexPaths:(nullable NSSet *)excludedIndexPaths
 {
     NSMutableArray *screenshots = [NSMutableArray array];
     // Header Screenshot
@@ -133,9 +133,9 @@
     return [UIImage drawCompositImageFromArray:screenshots];
 }
 
-- (UIImage *)screenshotOfHeadersAtSections:(NSSet *)includedHeaderSections
-                         footersAtSections:(NSSet *)includedFooterSections
-                          rowsAtIndexPaths:(NSSet *)includedIndexPaths
+- (UIImage *)screenshotOfHeadersAtSections:(nullable NSSet *)includedHeaderSections
+                         footersAtSections:(nullable NSSet *)includedFooterSections
+                          rowsAtIndexPaths:(nullable NSSet *)includedIndexPaths
 {
     NSMutableArray *screenshots = [NSMutableArray array];
     

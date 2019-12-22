@@ -18,13 +18,13 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+"MIRSnapper is Cocoapod that extends the UIView/UITableView/UIScrollView/UICollectionView class with a convenience method for taking screenshot."
                        DESC
 
   s.homepage         = 'https://github.com/mir-taqi/MIRSnapper'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'mir-taqi' => 'taqi1435@gmail.com' }
+  s.author           = { 'iosengineer1' => 'mtaqi@sejeltech.com' }
   s.source           = { :git => 'https://github.com/mir-taqi/MIRSnapper.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
