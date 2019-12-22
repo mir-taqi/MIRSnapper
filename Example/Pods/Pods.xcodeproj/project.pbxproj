@@ -9,10 +9,15 @@
 /* Begin PBXBuildFile section */
 		020B7F2D0D3CC52B2B7EB5E5392A83FE /* Pods-MIRSnapper_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B98DDFF0C0922DE93E3D9EEB5E77DEB /* Pods-MIRSnapper_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		19231CBE4A72E1575BDB75F1745E90CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		28F695D20339A27C99E31E8F3BD8BBEC /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A2CE72031CCBA11A7B3C9D60403CF /* ReplaceMe.m */; };
 		33784097273D4CA30E688DB3F8243DD3 /* MIRSnapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B9AF7ADE85655187702E4197479579 /* MIRSnapper-dummy.m */; };
 		94F86D30081ACA89DFECEC80A018CD33 /* Pods-MIRSnapper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F8601DD6A660AEA36B25513A81BC77 /* Pods-MIRSnapper_Tests-dummy.m */; };
 		CBFAF50026207393628C70A4A55889AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		E6787E0723AF5A3000D271CD /* UIImage+Snapper.h in Headers */ = {isa = PBXBuildFile; fileRef = E6787E0523AF5A2F00D271CD /* UIImage+Snapper.h */; };
+		E6787E0823AF5A3000D271CD /* UIImage+Snapper.m in Sources */ = {isa = PBXBuildFile; fileRef = E6787E0623AF5A3000D271CD /* UIImage+Snapper.m */; };
+		E6787E1323AF5ADD00D271CD /* UIView+Snapper.h in Headers */ = {isa = PBXBuildFile; fileRef = E6787E1123AF5ADD00D271CD /* UIView+Snapper.h */; };
+		E6787E1423AF5ADD00D271CD /* UIView+Snapper.m in Sources */ = {isa = PBXBuildFile; fileRef = E6787E1223AF5ADD00D271CD /* UIView+Snapper.m */; };
+		E6787E1723AF5AF400D271CD /* UITableView+Snapper.h in Headers */ = {isa = PBXBuildFile; fileRef = E6787E1523AF5AF400D271CD /* UITableView+Snapper.h */; };
+		E6787E1823AF5AF400D271CD /* UITableView+Snapper.m in Sources */ = {isa = PBXBuildFile; fileRef = E6787E1623AF5AF400D271CD /* UITableView+Snapper.m */; };
 		F9F48D68E3009341F4158C931294D201 /* MIRSnapper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78ADE2216014F1F7E5D44A0698C6FAB2 /* MIRSnapper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -33,7 +38,6 @@
 		3ACF67F62C6063DCC047F13F14992110 /* Pods-MIRSnapper_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MIRSnapper_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		3F4B6D0306BD83E32562E1299D1506C3 /* Pods-MIRSnapper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MIRSnapper_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		444CDEDF94396B761B14FFB1C230168A /* MIRSnapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MIRSnapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		489A2CE72031CCBA11A7B3C9D60403CF /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = MIRSnapper/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		4E80BBAFEAA7DBFB17C90FE5BB90B003 /* Pods-MIRSnapper_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MIRSnapper_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5AACDCEC270B4591C306DA44D14280EC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		73C315454AB3CFBB875F2362B82ED18D /* Pods-MIRSnapper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MIRSnapper_Tests.modulemap"; sourceTree = "<group>"; };
@@ -49,6 +53,12 @@
 		BBBCBD119BA11CD1A007C7504F368569 /* Pods-MIRSnapper_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MIRSnapper_Tests-Info.plist"; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		E2A117B9BF4BD2D168711F815A5CA813 /* MIRSnapper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MIRSnapper.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E6787E0523AF5A2F00D271CD /* UIImage+Snapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapper.h"; path = "MIRSnapper/Classes/UIImage+Snapper.h"; sourceTree = "<group>"; };
+		E6787E0623AF5A3000D271CD /* UIImage+Snapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapper.m"; path = "MIRSnapper/Classes/UIImage+Snapper.m"; sourceTree = "<group>"; };
+		E6787E1123AF5ADD00D271CD /* UIView+Snapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIView+Snapper.h"; path = "MIRSnapper/Classes/UIView+Snapper.h"; sourceTree = "<group>"; };
+		E6787E1223AF5ADD00D271CD /* UIView+Snapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIView+Snapper.m"; path = "MIRSnapper/Classes/UIView+Snapper.m"; sourceTree = "<group>"; };
+		E6787E1523AF5AF400D271CD /* UITableView+Snapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UITableView+Snapper.h"; path = "MIRSnapper/Classes/UITableView+Snapper.h"; sourceTree = "<group>"; };
+		E6787E1623AF5AF400D271CD /* UITableView+Snapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UITableView+Snapper.m"; path = "MIRSnapper/Classes/UITableView+Snapper.m"; sourceTree = "<group>"; };
 		FA33DFAE853343CA11352D1DEE8BFB0A /* MIRSnapper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MIRSnapper-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,9 +94,14 @@
 		162D511CBDEF74A73D8005C3BB851A78 /* MIRSnapper */ = {
 			isa = PBXGroup;
 			children = (
-				489A2CE72031CCBA11A7B3C9D60403CF /* ReplaceMe.m */,
 				CF6802FC72E45728F3D8F716A5C9F954 /* Pod */,
 				7D9214E1454FFFE8AC1755486237BE13 /* Support Files */,
+				E6787E0523AF5A2F00D271CD /* UIImage+Snapper.h */,
+				E6787E0623AF5A3000D271CD /* UIImage+Snapper.m */,
+				E6787E1123AF5ADD00D271CD /* UIView+Snapper.h */,
+				E6787E1223AF5ADD00D271CD /* UIView+Snapper.m */,
+				E6787E1523AF5AF400D271CD /* UITableView+Snapper.h */,
+				E6787E1623AF5AF400D271CD /* UITableView+Snapper.m */,
 			);
 			name = MIRSnapper;
 			path = ../..;
@@ -183,6 +198,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6787E1723AF5AF400D271CD /* UITableView+Snapper.h in Headers */,
+				E6787E0723AF5A3000D271CD /* UIImage+Snapper.h in Headers */,
+				E6787E1323AF5ADD00D271CD /* UIView+Snapper.h in Headers */,
 				F9F48D68E3009341F4158C931294D201 /* MIRSnapper-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,7 +312,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				33784097273D4CA30E688DB3F8243DD3 /* MIRSnapper-dummy.m in Sources */,
-				28F695D20339A27C99E31E8F3BD8BBEC /* ReplaceMe.m in Sources */,
+				E6787E1823AF5AF400D271CD /* UITableView+Snapper.m in Sources */,
+				E6787E0823AF5A3000D271CD /* UIImage+Snapper.m in Sources */,
+				E6787E1423AF5ADD00D271CD /* UIView+Snapper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

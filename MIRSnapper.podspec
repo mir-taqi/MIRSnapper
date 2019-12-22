@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'MIRSnapper'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of MIRSnapper.'
+  s.summary          = 'A convenience Cocoapod for taking snapshot of any type of extended UIView class.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,22 +21,22 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/iosengineer1/MIRSnapper'
+  s.homepage         = 'https://github.com/mir-taqi/MIRSnapper'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'iosengineer1' => 'mtaqi@sejeltech.com' }
-  s.source           = { :git => 'https://github.com/iosengineer1/MIRSnapper.git', :tag => s.version.to_s }
+  s.author           = { 'mir-taqi' => 'taqi1435@gmail.com' }
+  s.source           = { :git => 'https://github.com/mir-taqi/MIRSnapper.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'MIRSnapper/Classes/**/*'
+  s.source_files = 'MIRSnapper/Classes/*.h', 'MIRSnapper/Classes/*.m'
   
   # s.resource_bundles = {
   #   'MIRSnapper' => ['MIRSnapper/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
