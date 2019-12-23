@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'MIRSnapper/Classes/*.h', 'MIRSnapper/Classes/*.m'
+  s.source_files = 'MIRSnapper/Classes/*.h'
   
   # s.resource_bundles = {
   #   'MIRSnapper' => ['MIRSnapper/Assets/*.png']
