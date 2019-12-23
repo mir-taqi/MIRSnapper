@@ -13,6 +13,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
+A convenience Cocoapod for taking snapshot of any type of extended UIView class.
+
 MIRSnapper is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
@@ -22,7 +24,7 @@ pod 'MIRSnapper'
 
 ## Author
 
-iosengineer1, mtaqi@sejeltech.com
+Taqi
 
 ## License
 
