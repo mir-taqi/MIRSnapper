@@ -15,12 +15,26 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 A convenience Cocoapod for taking snapshot of any type of extended UIView class.
 
+You can just call methods as below.
+
+UIImage *sshot = [tableView  screenshot];
+
+Also, you can take screenshot of individual cell as below.
+
+  UIImage *sshot = [self.tableView screenshotOfCellAtIndexPath:indexPath];
+  
+  Please see the library for many more similar methods.
+
+
+
 MIRSnapper is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'MIRSnapper'
 ```
+
+
 
 ## Author
 
